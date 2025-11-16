@@ -37,8 +37,8 @@ class LSRPD_Dataset(data.Dataset):
         self.format = format
 
         # Check if directories exist
-        haze_dir = os.path.join(path, 'hazy')
-        clear_dir = os.path.join(path, 'clear')
+        haze_dir = os.path.join(path, 'smoke')
+        clear_dir = os.path.join(path, 'clean')
         if not os.path.exists(haze_dir):
             raise FileNotFoundError(f"Hazy image directory not found: {haze_dir}")
         if not os.path.exists(clear_dir):
@@ -116,4 +116,5 @@ if __name__ == "__main__":
     # Test the data loader
     for haze, clear in LSRPD_train_loader:
         print(f"Haze shape: {haze.shape}, Clear shape: {clear.shape}")
+
         break
