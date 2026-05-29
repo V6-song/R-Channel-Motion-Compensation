@@ -31,9 +31,9 @@ The structure of the LSRPD dataset is organized as follows:
 ```
 @inproceedings{sci_data_LSRPD,
   title={LSRPD: A Real Clinical Paired Dataset for Laparoscopic Smoke Removal},
-  author={Chengyang Song, Fengyang Liu, Mingkun Zhao, Zhibin Yu},
+  author={Chengyang Song, Fengyang Liu, Mingkun Zhao, Zhibin Yu, Han Li, and Wanzhong Tang},
   booktitle={preprint},
-  year={2025}
+  year={2026}
 }
 ```
 
